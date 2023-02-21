@@ -1,0 +1,586 @@
+body{
+    background-color: #010101;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+
+    height: 500px;
+    width: 100%;
+    background-color: #010101;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    background-color: #010101;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    
+   
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    margin: 10px;
+}
+nav a:hover{
+    color: #ffcc00;
+}
+section h1{
+    font-size: larger;
+    
+}
+.information{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.information-2{
+    max-height: 700px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trackmarkets{
+
+    
+    font-size: xx-large;
+    font-weight: 700;
+    color: #ffcc00;
+    
+}
+.quotes{
+    
+    font-size: xx-large;
+    font-weight: 700;
+    color: #ffcc00;
+
+}
+.information-2inside{
+    flex-wrap: wrap;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: x-large;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white;
+    margin: 0px 30px;
+}
+
+
+.footerbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+    height: 400px;
+    background-color: #010101;
+}
+.about-us{
+    
+    
+    color: white;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    
+    padding: 20px 20px;
+}
+.about-us h1{
+    margin: 0px;
+    padding: 0px;
+
+}
+.logo2{
+    width: 300px;
+    
+    
+    color: white;
+}
+.logo{
+    width: 300px;
+    
+    color: white;
+}
+.contentcontainer{
+    
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.cc-1{
+    background-color: #010101;
+    color: white;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+    width: 530px;
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 5px 5px ;
+}
+.global-markets{
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url('https://github.githubassets.com/images/modules/site/home/globe.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cc-1 p{
+    margin: 0px;
+}
+.cc-2{
+    flex-grow: 2;
+
+    width: 462px
+}
+.cc2-1{
+
+    background-color:#010101;
+    width: 100%;
+    height: 50%;
+
+}
+.topcompanies img{
+    height: 50px;
+    width: 50px;
+}
+.cc2-2{
+    
+    background-color: #010101;
+    width: 100%;
+    height: 50%;
+
+
+}
+#about-us{
+    font-size: large;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.invest-stocks{
+    
+
+
+    color: white;
+    letter-spacing: 3px;
+    font-size: xx-large;
+    font-weight: 300;
+
+}
+.invest-stocks-heading p{
+    margin: 0px;
+}
+.invest-stocks-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.invest-now-btn{
+    
+
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.invest-now-btn button{
+    border-radius: 10px;
+    color: #ffcc00;
+    border: 2px solid #ffcc00;
+    background-color: #010101;
+    width:100px;
+    height: 50px;
+    font-size: medium;
+    font-weight: 900;
+
+}
+.invest-now-btn button:hover{
+    color: #010101;
+    background-color: #ffcc00;
+}
+.fang{
+    height: 100px;
+    width: 100%;
+    background-image: url('https://www.alphavantage.co/static/img/selectedpartners.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.top-performers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+.tata-logo{
+
+    background-image: url(assets/tata-group-logo-for-vehicles.jpg);
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mahindra-logo{
+
+    background-image: url(assets/Mahindra-Mahindra-Emblem.jpg);
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.AB-logo{
+    background-image: url(assets/Aditya_Birla_Group_Old.webp);
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.adani-logo{
+
+    height: 120px;
+    width: 120px;
+    background-image: url(assets/adani-1-logo-black-and-white.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.mrf-logo{
+
+    background-image: url(assets/mrf.jpg);
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.data-invest-crypto{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    color: white;
+    letter-spacing: 3px;
+    font-size: xx-large;
+    font-weight: 300;
+}
+.DIC-crypto-info{
+    color: white;
+    letter-spacing: 3px;
+    font-size: xx-large;
+    font-weight: 300;
+}
+.crypto-info{
+
+    overflow: scroll;
+    top: 20px;
+    flex-grow: 2;
+    border: 1px solid red;
+    height:80px;
+    width: 70px;
+}
+.crypto-info p{
+    
+    color: white;
+    font-size:small;
+    font-weight: 500;
+
+}
+.crypto-invest-btn{
+    
+    height:150px;
+    width: 230px;
+
+}
+#cagr{
+    font-size: small;
+    font-weight: 700;
+}
+.crypto-invest-btn button{
+    margin-left: 120px;
+    border-radius: 10px;
+    color: #ffcc00;
+    border: 2px solid #ffcc00;
+    background-color: #010101;
+    width:100px;
+    height: 50px;
+    font-size: medium;
+    font-weight: 900;
+
+}
+.crypto-invest-btn button:hover{
+    color: #010101;
+    background-color: #ffcc00;
+}
+.top-cryptos{
+    overflow: scroll;
+
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+.data-invest-crypto p{
+    margin: 0px;
+}
+.btc-logo{
+    background-image: url(assets/bitcoin-logo-black-background-4k-xe.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-top: 20px;
+
+    height: 120px;
+
+    width: 120px;
+
+}
+.eth-logo{
+    background-image: url(assets/HD-wallpaper-ethereum-glitter-logo-cryptocurrency-grid-metal-background-ethereum-creative-cryptocurrency-signs-ethereum-logo-thumbnail-2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-top: 20px;
+
+    height: 120px;
+
+    width: 120px;
+
+}
+.chainlink-logo{
+    background-image: url(assets/chainlink_white_logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.solana-logo{
+    background-image: url(assets/solana.jpg.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+}
+.uniswap-logo{
+
+    margin-top: 20px;
+
+    height: 120px;
+    width: 120px;
+    background-image: url(assets/uniswap-logo-400x400.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.tron-logo{
+
+    margin-top: 20px;
+
+    height: 120px;
+    width: 120px;
+    background-image: url(assets/tron-cryptocurrency-trx-logo-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.cardano-logo{
+
+    margin-top: 20px;
+
+    height: 120px;
+    width: 120px;
+    background-image: url(assets/cardano.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer{
+    
+    color: white;
+    height: 160px;
+    background-color: #010101;
+    width: 100%;
+}
+.footerinfo{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+.infodata{
+    height: 200px;
+    width: 475px;
+    
+}
+.infostickers{
+    height: 200px;
+    width: 475px;
+    
+
+}
+.moreinfo{
+    height: 200px;
+    width: 475px;
+    
+
+}
+.footerlinks{
+
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.footerlinks a{
+    color: white;
+    text-decoration: none;
+}
+.footerlinks a:hover{
+    color: #ffcc00;
+}
+.copyright{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.copyright a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+    nav{
+        justify-content: center;
+        font-size: small;
+        font-weight: 300;
+    }
+    .header{margin-top: 50px;
+        height: 600px;
+        font-size: medium;
+
+    }
+    .information-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .trackmarkets{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        font-size: medium;
+    }
+    .information-2inside{   
+        font-size: medium;
+
+    }
+    .quotes{
+        font-size: medium;
+    }
+    .contentcontainer{
+        margin-top: 80px;
+    }
+    .cc-1 p{
+        font-size: medium;
+        font-weight: 500;
+    }
+    .invest-stocks-heading{
+        font-size: medium;
+        font-weight: 300;
+
+    }
+    .invest-now-btn a button,.crypto-invest-btn a button{
+        font-size: small;
+        font-weight: bolder;
+        width: 100px;
+        height: 50px;
+
+
+    }
+    .crypto-invest-btn{
+        height: 70px;
+        width: 100px;
+    }
+    .tata-logo,.mahindra-logo,.AB-logo,.adani-logo,.mrf-logo{
+        height: 50px ;
+        width: 50px;
+    }
+    .btc-logo,.cardano-logo,.eth-logo,.solana-logo,.chainlink-logo,.tron-logo,.uniswap-logo{
+        height: 40px;
+        width: 40px;
+    }
+    .footerbar{
+        margin-top: 100px;
+    }
+    .about-us h1{
+        font-size: medium;
+        font-weight: 500;
+    }
+    #about-us{
+        font-size: small;
+        font-weight: 300;
+    }
+    .footerlinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .global-markets{
+        height: 100px;
+        width: 100px;
+    }
+  }
+  @media only screen and (max-width: 300px){
+    .footerbar{
+        margin-top: 180px;
+    }
+
+  }

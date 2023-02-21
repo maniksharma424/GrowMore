@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <script defer src="https://kit.fontawesome.com/6bd0713aad.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stocks-GM.css">
+    <link rel="shortcut icon" href="assets/letter.png" type="image/x-icon">
+    <script defer src="stocks-GM.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img id="logo" src="assets/zerodha.png" alt="">
+        <h1>G.M Brokers</h1>
+        
+
+    </div>
+    <div class="main">
+        <div id="watchlist">
+            <p id="select-exchange">Choose Exhchange To Add Ticker To Watchlist</p>
+            <div  id="exchange-board">
+                <button class="exchange-btns" id="nsdq-btn"><i class="fa-solid fa-dollar-sign"></i> NASDAQ</button>
+                <button class="exchange-btns" id="bnbs-btn"><i class="fa-brands fa-hive"></i> BINANCE</button>
+                <button class="exchange-btns" id="nse-btn"><i class="fa-solid fa-indian-rupee-sign"></i>  NSE/BSE</button>
+            </div>
+            <div class="searchbox">
+                <input onkeyup="filterfunction()"  id="input-el" placeholder="Search for  Stocks crypto etc.." type="text">
+            </div>
+            <div id="listbox">
+                <ul  id="ul-el"></ul>
+            </div>
+            <div id="render-watchlist"></div>
+        </div>
+        <div class="main-2">
+            <div class="main-2-one">
+                <div class="main-2-one-1">
+                    <p id="hi-user">Hi User </p>
+                    <p>We Are Currently Accepting Only PRE Market Orders!</p>
+                    <p>All The Orders Placed Will Be Sent You Broker By 05:00 Hrs</p>
+                    <p>TOTAL orders : <span id="total-orders">0</span></p>
+
+
+                    
+                </div>
+                <div class="main-2-one-2">
+                    
+                    <ol>
+                        <li>Create Watchlist To Track Global Markets </li>
+                        <li>Place Orders Directly To Your Broker</li>
+                        <li>2% Brokerage on Intraday Trade </li>
+                        <li>0.5% Brokerage on Delivery Trade </li>
+                        <li>Trade All Markets At One Place </li>
+                    </ol>
+                </div>
+                
+            </div>
+            <div class="main-2-two">
+                <div id="main-2-two-1">
+                        
+
+                </div>
+                <div class="main-2-two-2"></div>
+            </div>
+
+            
+        </div>
+        
+    </div>
+    <br>
+   
+    <div class="footer">
+        
+        <div class="icons">
+            <a  class="footer-icons" href=""><i class="fa-solid fa-arrow-trend-up fa-2xl"></i></a>
+            <a class="footer-icons" href=""><i class="fa-sharp fa-solid fa-coins fa-2xl"></i></a>
+            <a class="footer-icons" href=""><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a class="footer-icons" href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            <a class="footer-icons" href=""><i class="fa-solid fa-id-card-clip fa-2xl"></i></a>
+        </div>
+     
+        <div class="links">
+            <a id="firstlink" class="footer-links"  href="">HOME</a>
+            <a class="footer-links" target="_blank" href="https://www.nseindia.com/">NSE</a>
+            <a class="footer-links" target="_blank" href="https://www.bseindia.com/">BSE</a>
+            <a class="footer-links" target="_blank" href="">MCX</a>
+            <a class="footer-links" target="_blank" href="https://www.binance.com/en">CRYPTO</a>
+            <a class="footer-links" href="">CARRERS</a>
+        </div>
+           
+            <div class="copyright">
+                <a class="footer-links" href="">&copy; 2022 Grow More -LTD</a>
+
+            </div>
+
+    </div>
+ 
+    
+</body>
+</html>

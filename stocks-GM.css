@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.header{
+  
+    display: flex;
+    color: rgb(157, 72, 72);
+    width: 100%;
+    height: 140px;
+    font-size: xx-large;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#logo{
+    height: 100px;
+    width:100px;
+}
+.header h1{
+    position: relative;
+    top: 10px;
+    padding: 0;
+    margin: 0;
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#watchlist{
+    border: 2px solid rgb(157, 72, 72) ;
+    
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 620px;
+    width: 35%;
+}
+.main-2{
+    width: 64%;
+    height: 620px;
+}
+#input-el{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 97%;
+    margin: 5px 5px ;
+    height: 35px;
+}
+#render-watchlist{
+    width: 100%;
+    height: 76%;
+    overflow: scroll;
+}
+#listbox{
+    position: absolute;
+    min-height: 0px;
+    max-height: 362px;
+    width: inherit;
+    overflow:scroll;
+}
+#plus-btn{
+    border: .5px solid rgb(157, 72, 72) ;
+    background-color:rgb(157, 72, 72) ;
+    border-radius: 5px;
+    color: white;
+
+}
+#plus-btn:hover{
+    background-color: white;
+    color: rgb(157, 72, 72);
+}
+#ul-el{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 0px;
+     padding: 0px;
+     border: 0px;
+     margin-left: 0px;
+ }
+ #listitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(90, 48, 142);
+     background-color: whitesmoke;
+     padding: 10px 10px;
+     border-bottom: .5px solid rgb(157, 72, 72);
+     list-style: none;
+     font-weight: 500; 
+     width: 100%;
+ }
+ #listitem:hover{
+    background-color: gainsboro;
+ }
+ .item-watchlist{
+    padding: 7px;
+    height: 30px;
+    margin: 1px ;
+    border-bottom: .5px solid black;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between ;
+    align-content: center;
+ }
+ .item-watchlist span{
+    margin: 0px;
+    padding: 5px;
+ }
+ #item-exchangeVal{
+    font-size: xx-small;
+    color: #3c7aed;
+ }
+ .green{
+    color: green;
+ }
+ .red{
+    color: #DD0004;
+ }
+ .item-watchlist:hover{
+    background-color: whitesmoke;
+ }
+ #select-exchange{
+
+    margin: 0px;
+    font-size: larger;
+    font-weight: 300;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+ #exchange-board{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+ }
+ .exchange-btns{
+    cursor: grab;
+    font-size: medium;
+    margin: 10px;
+    padding: 10px 10px ;
+    color: black;
+    background-color: whitesmoke;
+    border: .2px solid ;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px;
+ }
+ .exchange-btns:hover{
+    color: white;
+    background-color: #353839;
+ }
+ #item-btns{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+ }
+ #b-btn{
+    font-size: small;
+    padding-left: 10px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+ }
+ #b-btn:hover{
+    background-color: #3c7aed;
+    color: white;
+ }
+ #s-btn:hover{
+    background-color: #DD0004;
+    color: white;
+ }
+ #c-btn:hover{
+    background-color: #414a4c;
+    color: white;
+ }
+ #d-btn:hover{
+    background-color: #414a4c;
+    color: white;
+ }
+ #s-btn{
+    font-size: small;
+    padding-left: 10px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+ }
+ #c-btn{
+    font-size: small;
+    padding-left: 10px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+ }
+ #d-btn{
+    font-size: small;
+    padding-left: 10px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+ }
+ #btns button{
+     padding: 3px 3px 3px 3px;
+     height: 20px;
+     width: 20px;
+    }
+th{
+    padding: 20px 20px;
+}
+.main-2-one{
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-2-one-1{
+    color: rgb(157, 72, 72);
+    margin-left: 20px;
+
+}
+#hi-user{
+    font-weight: 500;
+    font-size: xx-large;
+}
+.main-2-one-2{
+
+    width: 420px
+
+}
+.main-2-one-2 ol li{
+    color: rgb(157, 72, 72);
+    padding: 20px;
+    list-style-type: square;
+}
+
+
+#buy-info-close{
+    width:695px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.buy-info{
+    width: 300px;
+    padding-bottom: 10px;
+    color:rgb(157, 72, 72);
+    background-color: whitesmoke;
+}
+.buy-info p{
+    margin: 0px;
+    padding: 0px;
+}
+.closeButton{
+    display: flex;
+    justify-content: flex-end;
+    width: 198px;
+    background-color: whitesmoke;
+}
+#Close-Btn{
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-color: whitesmoke;
+    color:rgb(157, 72, 72);
+}
+.order-details p{
+    margin: 0px;
+    color: rgb(157, 72, 72);
+    background-color: whitesmoke;
+}
+
+.order-details{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+.order-details a{
+    position: relative;
+    bottom: 5px;
+    color: rgb(157, 72, 72);
+    text-decoration: none;
+    margin: 5px ;
+}
+.order-details a:hover{
+    color: #3c7aed;
+}
+.details{
+    color: rgb(157, 72, 72);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#input-price,#input-qty{
+    padding: 5px 5px;
+    font-size: medium;
+    padding: 0px 5px;
+    box-shadow: 2px 2px 2px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgb(157, 72, 72);
+}
+#black{
+    color: green;
+}
+.field{
+    border: none;
+    height: 55px;
+}
+.radiobtn{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+.buy-sell{
+    height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+#buy-btn,#sell-btn{
+    height: 50px;
+    border: 1px solid rgb(157, 72, 72);
+    border-radius: 4px;
+    padding: 7px 7px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+#buy-btn{
+    color: white;
+    background-color: rgb(157, 72, 72);
+}
+#buy-btn:hover{
+    background-color: white;
+    color: rgb(157, 72, 72);
+}
+#sell-btn{
+    background-color: white;
+    color: rgb(157, 72, 72);
+}
+#sell-btn:hover{
+    color: white;
+    background-color: rgb(157, 72, 72);
+}
+#orderplacingcard{
+    background-color: whitesmoke;
+    font-size: x-large;
+    height: 166px;
+    width: 500px;
+    border: 1px solid rgb(157, 72, 72);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#order-card-info p{
+    margin: 2px;
+    padding: 2px;
+}
+.okay-btn{
+    
+    
+    display: flex;
+    position: relative;
+    left: 340px;
+    
+}
+#okay-btn{
+    border: 1px solid rgb(157, 72, 72);
+    background-color: whitesmoke;
+    color: rgb(157, 72, 72);
+    border-radius: 3px;
+    font-size: large;
+    font-weight: 300;
+    padding: 10px 20px ;
+    width: 100px;
+    height: 45px;
+}
+#okay-btn:hover{
+
+    background-color: rgb(157, 72, 72);
+    color: white;
+}
+.main-2-two{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+#main-2-two-1{
+   
+    color:rgb(157, 72, 72);
+    
+    padding: 0px;
+    height: 296px;
+    width: 500px;
+
+}
+#card{
+    border: 1px solid rgb(157, 72, 72);
+}
+.main-2-two-2{
+
+    height: 296px;
+    width: 390px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#140f07;
+    min-height: fit-content;
+    flex-direction: column;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons{
+    color: rgb(157, 72, 72);
+    margin-left: 100px;
+    margin: 30px;
+    
+}
+.footer-icons:hover{
+    color: white;
+}
+.footer-links{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(157, 72, 72);
+}
+.footer-links:hover{
+    color: white
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+@media only screen and (max-width: 550px) {
+    .header h1{
+        font-size: xx-large;
+        font-weight: 700;
+        margin-top: 25px;
+    }
+    #watchlist{
+        width: 600px;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 550px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+
+    }
+    .main-2-one{
+        width: 400px;
+        
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #card{
+        height: 283px;
+        width: 350px;
+    }
+    .closeButton{
+        width: 50px;
+    }
+    #buy-btn,#sell-btn{
+        height: 40px;
+        width: 70px;
+        font-size: small;
+
+    }
+  }
+  
