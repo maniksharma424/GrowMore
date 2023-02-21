@@ -507,6 +507,24 @@ th{
         bottom: 720px;
         right:10px;
     }
-    
+    #orderplacingcard{
+        position: relative;
+        bottom: 720px;
+        right:10px;
+        width: 340px;
+        height: fit-content;
+        padding-bottom: 30px;
+
+    }
+    #order-card-info{
+        font-size: medium;
+    }
+    #okay-btn{
+        position: relative;
+        right: 150px;
+        font-size: small;
+        height: 40px;
+        width: 100px;
+    }
   }
   
