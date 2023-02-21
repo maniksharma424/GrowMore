@@ -29,3 +29,9 @@ Open your favorite code editor and run locally!
 
 
 <img width="400" height="500px" alt="Screenshot 2023-02-21 at 8 19 24 PM" src="https://user-images.githubusercontent.com/115614705/220377834-7ac6d6b3-847a-4a01-97b1-2227da977eca.png">
+
+
+## Author
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/maniksharma424.svg?style=social&label=Follow%20%40maniksharma424)](https://twitter.com/maniksharma424)
+<br />
+Let's connect :)
