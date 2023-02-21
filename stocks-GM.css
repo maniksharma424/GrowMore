@@ -452,19 +452,24 @@ th{
     flex-wrap: wrap;
    
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 400px) {
     .header h1{
         font-size: xx-large;
         font-weight: 700;
         margin-top: 25px;
     }
     #watchlist{
-        width: 600px;
+        width: 360px;
     }
+    .item-watchlist{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
     .footer{
         margin-top: 100px;
-        width: 550px;
-        height: 400px;
+        width: 400px;
+        height: fit-content;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -497,5 +502,11 @@ th{
         font-size: small;
 
     }
+    #card{
+        position: relative;
+        bottom: 720px;
+        right:10px;
+    }
+    
   }
   
