@@ -461,6 +461,9 @@ th{
     #watchlist{
         width: 360px;
     }
+    #input-el{
+        width: 340px;
+    }
     .item-watchlist{
         padding-top: 10px;
         padding-bottom: 20px;
@@ -468,7 +471,7 @@ th{
     
     .footer{
         margin-top: 100px;
-        width: 378px;
+        width: 400px;
         height: fit-content;
         display: flex;
         flex-wrap: wrap;
