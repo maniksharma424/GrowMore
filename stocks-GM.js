@@ -11,6 +11,7 @@ let BNBSbtn = document.getElementById("bnbs-btn")
 let Table = document.getElementById("table")
 let DBtn = document.getElementById("d-btn")
 let orderbox = document.getElementById("main-2-two-1")
+let deleteBtn = document.getElementById("d-btn")
 let usStocks 
 let nsestocks
 let Cryptonames
@@ -147,7 +148,7 @@ function UpdateWatchlist(exchange,str1,str2,str3){
         <button id="b-btn" onclick="CreateOrder()">B</button>
         <button id="s-btn" onclick="CreateOrder()">S</button>
         <a target="_blank" href="https://in.tradingview.com/symbols/${str1}/"><button id="c-btn" ><i class="fa-solid fa-chart-line"></i></button></a>
-        <button onclick="RemoveItemWatchlist()" id="d-btn" ><i class="fa-solid fa-trash"></i></button>
+        <button onclick="RemoveItemWatchlist(${str1})" id="d-btn" ><i class="fa-solid fa-trash"></i></button>
     </div>
    </div>`
    buyingticker = str1;
@@ -165,7 +166,7 @@ function UpdateWatchlist(exchange,str1,str2,str3){
         <button id="b-btn" onclick="CreateOrder()">B</button>
         <button id="s-btn" onclick="CreateOrder()">S</button>
         <a target="_blank" href="https://in.tradingview.com/symbols/${str1}/"><button id="c-btn" ><i class="fa-solid fa-chart-line"></i></button></a>
-        <button onclick="RemoveItemWatchlist()" id="d-btn" ><i class="fa-solid fa-trash"></i></button>
+        <button onclick="RemoveItemWatchlist(${str1})" id="d-btn" ><i class="fa-solid fa-trash"></i></button>
     </div>
    </div>`
    buyingticker = str1;
@@ -175,15 +176,8 @@ function UpdateWatchlist(exchange,str1,str2,str3){
     }
     
 }
-function RemoveItemWatchlist(){
-    RenderWatchlist.addEventListener('click',(e)=>{
-       let o =  e.path[3].firstElementChild.firstElementChild.textContent
-
-        if(RenderWatchlist.innerHTML!=""){
-            const w = document.getElementById(o)
-            w.remove() 
-    }
-    })
+function RemoveItemWatchlist(id){
+            id.remove() 
 }
 
 function filterfunction(){
